@@ -1,0 +1,35 @@
+class Student1:
+    group = 'B29234'
+    education = 'ItStep'
+    teacher = 'Evgeniy'
+
+class Student2:
+    group = 'C4114'
+    education = 'ItStep'
+    teacher = 'Evgeniy'
+
+class Student3:
+    group = 'B29235'
+    education = 'ItStep'
+    teacher = 'Evgeniy'
+
+def __init__(self)
+print('ok')
+
+    print(Student.group)
+    print(Student.teacher)
+    print(Student.education)
+
+St1 = Student()
+print(st1.group)
+st2 = Student()
+print(st2.group)
+st2.group = 'C4114'
+print(st1.group)
+print(st2.group)
+print(st1.teacher)
+print(st2.teacher)
+st3 = Student()
+print(st3.group)
+st3.group = 'B29235'
+print(st3.teacher)
